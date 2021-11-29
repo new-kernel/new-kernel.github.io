@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentaion - Novusk - Konfigs</title>
+    <link rel="stylesheet" href="../../static/main.css">
+    <link rel="stylesheet" href="../../static/docs.css">
+</head>
+<body>
+
+<div class="heading">
+    <h1>Konfigs (Kernel Configurations)</h1>
+</div>
+
+<div class="explanation">
+    A Konfig file is a file used for determining what should be setup during the main kernel and after the kernel (your
+    project). You should install the default konfig file and edit it for your usage.
+</div>
+
+<div class="middle_section">
+
+    <div id="AFTER_KERNEL"><h3>AFTER_KERNEL</h3></div>
+
+    <p>The first thing you should do is change the ``AFTER_KERNEL`` option. By default it is ``Nothing`` and stops the
+        kernel from setting up specific userspace stuff. Here are some things you can change it to:</p>
+
+    <br>
+    <p>"Kernel" - Used as an extension to the kernel.</p>
+    <br>
+    <p>"Os" - Used for setting up an operating. system. If you develop an OS supported by Novusk, you add the
+        "OS_NAME" option.</p>
+    <br>
+    <p>"Server" - Runs network tests then starts the userspace as a regular OS.</p>
+    <br>
+    <p>"BMApp" - For bare metal apps.</p>
+</div>
+
+</body>
+</html>
