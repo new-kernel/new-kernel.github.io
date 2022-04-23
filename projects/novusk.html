@@ -53,7 +53,16 @@
     <h3>Updates</h3>
     <br>
 
-    <h3>Novusk v3 2022/1/12</h3>
+    <h3 id="2022/4/23_1">Novusk v3 2022/4/23</h3>
+    <p style="margin-right: 35%">Even though Novusk v3 just recently came out it's starting to look like it shouldn't
+        be used anymore or needs almost a complete rewrite because of a few problems. Lots of Novusk's dependencies are
+        unmaintained and don't work with the current version of Rust (1.60 - 1.62), another thing is linker errors
+        caused by drivers getting mixed together. Fixing unmaintained dependencies can be done by implementing them
+        manually and fixing linker errors could be done with a bit of reorganizing. Doing a rewrite is probably the best
+        thing to do to fix this problem and prevent it from happening again, <a href="">This (#22)</a> is an issue to
+        keep track of the problem</p>
+
+    <h3 id="2022/1/12_2">Novusk v3 2022/1/12</h3>
     <p style="margin-right: 35%">Novusk v3 has been released! It is the biggest major version released so far, it
         improves many features and adds many more. This new version added architecture support for ARM (32 bit),
         RISCV32, and <a href="https://github.com/esp-rs/rust">Xtensa</a> (Xtensa is experimental), added drivers:
@@ -70,7 +79,7 @@
 
     <br>
 
-    <h3>Novusk v1 - v2 2022/1/12</h3>
+    <h3 id="2022/1/12_1">Novusk v1 - v2 2022/1/12</h3>
     <p style="margin-right: 35%">These versions will not be supported anymore</p>
 </div>
 
